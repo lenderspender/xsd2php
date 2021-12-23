@@ -2,7 +2,7 @@
 
 namespace GoetasWebservices\Xsd\XsdToPhp\Php;
 
-use Doctrine\Inflector\Inflector;
+use Doctrine\Common\Inflector\Inflector;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPClass;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPClassOf;
 use GoetasWebservices\Xsd\XsdToPhp\Php\Structure\PHPProperty;
