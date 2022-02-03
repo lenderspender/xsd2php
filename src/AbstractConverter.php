@@ -44,6 +44,11 @@ abstract class AbstractConverter
         $this->typeAliases[$ns][$name] = $handler;
     }
 
+    public function getTypeAliases(): array
+    {
+        return $this->typeAliases;
+    }
+
     public function addAliasMapType($ns, $name, $type)
     {
         $this->addAliasMap($ns, $name, function () use ($type) {
